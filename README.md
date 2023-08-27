@@ -20,6 +20,8 @@ MVP frontend for this app aims to:
 
 ### Technology Stack:
 backend - javascript
+* [ ] compiling older versions - babel
+* [ ] testing - jest
 * [ ] database - mongo db
 * [ ] orm - mongoose
 * [ ] rest api - express

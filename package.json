@@ -1,11 +1,20 @@
 {
   "type": "module",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "build": "babel src -d lib",
+    "test": "mocha --recursive"
   },
   "dependencies": {
     "dotenv": "^16.3.1",
     "mongodb": "^6.1.0",
     "mongoose": "^7.5.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.22.20",
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0"
   }
 }
